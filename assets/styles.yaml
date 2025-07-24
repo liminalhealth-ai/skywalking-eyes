@@ -117,8 +117,8 @@
   end: '"""'
 
 - id: LiquibaseStyle
-  after: '--liquibase formatted sql'
-  ensure_after: '--liquibase formatted sql'
+  after: '-- liquibase formatted sql'
+  ensure_after: '-- liquibase formatted sql'
   start: '/*'
   middle: ' *'
   end: '*/'
